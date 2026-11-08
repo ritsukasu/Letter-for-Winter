@@ -1,30 +1,74 @@
-# Valentine's day letter for Winter! ❄️
+<h1 align="center">A Valentine's Letter for Winter</h1>
 
--- A fan made valentine's day greeting letter(too shy to greet happy valentine's day on the letter itself 😭) in the form of a website project for our Website Development program! (´｡• ᵕ •｡`) ♡
+<p align="center">
+  A quiet, snowy little letter for <em>Winter</em>, written by a very shy fan.
+</p>
 
-## Programming languages used
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+<p align="center">
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white">
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black">
+  <img alt="Status: school project" src="https://img.shields.io/badge/status-school%20project-ffb6c1">
+</p>
 
----
+<p align="center">
+  <img alt="Preview of the Valentine's letter website" src="preview.png" width="100%">
+</p>
+
+A website project made for our Website Development program. A silky envelope slides open to reveal a heartfelt letter, while soft snow falls and a vinyl record spins in the corner. The letter is far too shy to say "Happy Valentine's Day" itself, so it lets the snowfall and the music say it instead.
 
 ## Features
-* **Interactive Envelope:** A sliding silk-textured envelope that reveals a personal letter.
-* **Vinyl Player:** A custom-styled music widget with a spinning vinyl animation made using javascript.
-* **Winter Vibes:** Smooth falling snow animation and a soft pastel aesthetic.
-* **Message Text Field:** An integrated contact form—any messages sent through the text area are delivered straight to my email.
-  
-## Getting Started
-1. Clone the repository.
-2. Ensure the music files (e.g., `iu - i stan u.mp3`) are in the root folder.
-3. Make sure `winterlogo.png`, `winter.png`, and `winterlogo.png` are present.
-4. **Email Integration:** Ensure the form backend (like EmailJs or a custom script) is configured with your email address to receive messages. 
-5. Open `index.html` in your favorite browser.
 
-## Customization
-To change the music playlist, update the `playlist` array in the JavaScript file:
+- **Interactive envelope:** a sliding, silk-textured envelope that opens to reveal a personal letter.
+- **Vinyl player:** a custom-styled music widget with a spinning vinyl animation, powered by JavaScript.
+- **Winter atmosphere:** gently falling snow and a soft pastel color palette.
+- **Message box:** a built-in contact form. Anything typed in the text area is delivered straight to the creator's email.
+
+## Getting Started
+
+```bash
+git clone <your-repository-url>
+cd <your-repository-folder>
+```
+
+Before opening the project, please check that:
+
+1. Your music files (for example, `iu - i stan u.mp3`) are in the root folder.
+2. `winter.png` and `winterlogo.png` are in the root folder.
+3. The message form is connected to a backend, such as [EmailJS](https://www.emailjs.com) or a custom script, and configured with your own email address.
+
+Then open `index.html` in your favorite browser. No build step required.
+
+## Customizing the Playlist
+
+To change the music, edit the `playlist` array in the JavaScript file:
+
 ```javascript
 const playlist = [
-    { name: "Song Name", src: "your-file.mp3" },
+  { name: "Song Name", src: "your-file.mp3" },
+  { name: "Another Song", src: "another-file.mp3" },
 ];
+```
+
+## Project Structure
+
+```text
+.
+├── index.html          # Letter and page structure
+├── style.css           # Envelope, snow, and vinyl styling
+├── script.js           # Envelope, snowfall, vinyl player, and form logic
+├── winter.png
+├── winterlogo.png
+└── your-song.mp3       # Music files for the vinyl player
+```
+
+## Built With
+
+- **HTML5** for the page structure
+- **CSS3** for the envelope, pastel theme, and animations
+- **JavaScript** for the vinyl player, snowfall, and form handling
+- **EmailJS** (or a similar service) for delivering messages by email
+
+## Disclaimer
+
+This is a fan-made project and is not affiliated with Winter or her agency. It was made with plenty of admiration and a little too much shyness.
