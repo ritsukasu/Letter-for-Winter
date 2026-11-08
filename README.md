@@ -1,8 +1,4 @@
-<h1 align="center">A Valentine's Letter for Winter</h1>
-
-<p align="center">
-  A quiet, snowy little letter for <em>Winter</em>, written by a very shy fan.
-</p>
+<h1 align="center">A Valentine's Letter for Winter ❆</h1>
 
 <p align="center">
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white">
@@ -15,7 +11,7 @@
   <img alt="Preview of the Valentine's letter website" src="preview.png" width="100%">
 </p>
 
-A website project made for our Website Development program. A silky envelope slides open to reveal a heartfelt letter, while soft snow falls and a vinyl record spins in the corner. The letter is far too shy to say "Happy Valentine's Day" itself, so it lets the snowfall and the music say it instead.
+A website project made for our Website Development course. A silky envelope slides open to reveal a heartfelt letter, while soft snow falls and a vinyl record spins in the corner. The letter is far too shy to say "Happy Valentine's Day" itself, so it lets the snowfall and the music say it instead.
 
 ## Features
 
