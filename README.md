@@ -63,4 +63,4 @@ const playlist = [
 
 ## Disclaimer
 
-This is a fan-made project and is not affiliated with Winter or her agency. It was made with plenty of admiration and wishing her happiness. 
+This is a fan-made project and is not affiliated with Winter or her agency. It was made with plenty of admiration and wishing for her happiness. 
