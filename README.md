@@ -7,7 +7,7 @@
   <img alt="Status: school project" src="https://img.shields.io/badge/status-school%20project-ffb6c1">
 </p>
 
-A website project made for our Website Development course. A silky envelope slides open to reveal a heartfelt letter, while soft snow falls and a vinyl record spins in the corner. The letter is far too shy to say "Happy Valentine's Day" itself, so it lets the snowfall and the music say it instead.
+A website project made for our Website Development course.
 
 ## Features
 
